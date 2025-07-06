@@ -55,7 +55,7 @@
 
 .order-date {
   font-size: 13px;
-  color: white; /* ✅ White text for date */
+  color: white; 
 }
 
 .order-status {
