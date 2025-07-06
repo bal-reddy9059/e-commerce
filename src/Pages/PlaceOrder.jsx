@@ -1,6 +1,6 @@
 
 
-// export default PlaceOrder;
+
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -10,7 +10,6 @@ import './CSS/PlaceOrder.css';
 import stripe_logo from '../Components/Assets/stripe_logo.png';
 import razorpay_logo from '../Components/Assets/razorpay_logo.png';
 
-// ✅ Replace with your own keys
 const stripePromise = loadStripe('pk_test_51PUvAkSG2o9bHMQ7zQYcXrFAYKNDXWDWXXXXXXXX');
 
 const PlaceOrder = () => {
@@ -89,7 +88,7 @@ const PlaceOrder = () => {
     if (!isLoaded) return toast.error('Razorpay SDK failed to load');
 
     const options = {
-      key: 'rzp_test_1DP5mmOlF5G5ag', // ✅ Replace with your Razorpay test key
+      key: 'rzp_test_1DP5mmOlF5G5ag', 
       amount: Math.round(totals.total * 100),
       currency: 'INR',
       name: 'Forever Store',
