@@ -8,7 +8,7 @@ import Item from '../Components/Item/Item';
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
 
-  // 🔍 Filter products by category
+  
   const filteredProducts = all_product.filter(
     (item) => item.category.toLowerCase() === props.category.toLowerCase()
   );
