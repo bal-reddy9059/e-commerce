@@ -1,4 +1,4 @@
-/* === Container Layout === */
+
 .productdisplay {
     display: flex;
     margin: 0px 170px;
@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* === Animated Gradient === */
+
 @keyframes gradientBG {
     0% {
         background-position: 0% 50%;
@@ -49,11 +49,11 @@
 .productdisplay-img-main-img {
     width: 586px;
     height: 1000px;
-    /* //object-fit: cover; */
+    
     border-radius: 16px;
 }
 
-/* === Right Panel === */
+
 .productdisplay-right {
     margin: 0px 70px;
     display: flex;
