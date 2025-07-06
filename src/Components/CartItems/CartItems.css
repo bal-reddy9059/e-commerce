@@ -1,14 +1,14 @@
-/* ----------- Google Font ----------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ----------- Animation Keyframes ----------- */
+
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* ----------- Layout Base ----------- */
+
 .cartitems {
   padding: 40px 60px;
   font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@
   color: #333;
 }
 
-/* ----------- Header Row ----------- */
+
 .cartitems-format-main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 0.5fr;
@@ -34,7 +34,7 @@
   color: #212121;
 }
 
-/* ----------- Cart Items ----------- */
+
 .cartitems-format {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 0.5fr;
@@ -69,7 +69,7 @@
   opacity: 0.6;
 }
 
-/* ----------- Quantity Controls ----------- */
+
 .quantity-controls {
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@
   font-size: 15px;
 }
 
-/* ----------- Size Styling ----------- */
+
 .cartitems-size {
   font-weight: 600;
   text-align: center;
@@ -112,7 +112,7 @@
   color: #33691e;
 }
 
-/* ----------- Totals + Promo Layout ----------- */
+
 .cartitems-down {
   display: flex;
   flex-wrap: wrap;
@@ -121,7 +121,7 @@
   gap: 24px;
 }
 
-/* ----------- Totals Card ----------- */
+
 .cartitems-total {
   flex: 1;
   max-width: 45%;
@@ -175,7 +175,7 @@
   cursor: not-allowed;
 }
 
-/* ----------- Promo Code Section ----------- */
+
 .cartitems-promocode {
   flex: 1;
   max-width: 45%;
@@ -235,7 +235,7 @@
   transition: 0.3s ease;
 }
 
-/* ----------- Responsive Design ----------- */
+
 @media (max-width: 768px) {
   .cartitems-format-main,
   .cartitems-format {
