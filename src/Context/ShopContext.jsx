@@ -1,6 +1,4 @@
 
-
-// src/Context/ShopContext.jsx
 import React, { createContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import all_product from "../Components/Assets/all_product";
