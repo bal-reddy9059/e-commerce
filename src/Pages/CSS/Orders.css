@@ -95,7 +95,7 @@
 }
 
 .track-order:hover {
-  background-color: green;     /* ✅ Green on hover */
-  color: white;                /* ✅ White text on hover */
-  border-color: green;         /* Optional: match border with background */
+  background-color: green;     
+  color: white;                
+  border-color: green;         
 }
