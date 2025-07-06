@@ -1,4 +1,4 @@
-// src/Pages/LoginSignUp.jsx
+
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './CSS/LoginSignup.css';
@@ -9,7 +9,7 @@ const LoginSignUp = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Auto detect login/signup from route path
+  
   const [isLogin, setIsLogin] = useState(!location.pathname.includes('signup'));
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
