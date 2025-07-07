@@ -1,3 +1,5 @@
+/* ----------- Place Order Layout Styles ----------- */
+
 .place-order {
   display: flex;
   justify-content: space-between;
@@ -39,24 +41,25 @@ h2 span {
   color: #888;
 }
 
-.place-order-left input {
+.place-order input {
   width: 100%;
-  padding: 16px;
+  padding: 14px 16px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 14px;
-  transition: 0.3s ease;
+  font-size: 15px;
+  line-height: 1.4;
   background-color: #fff;
   box-sizing: border-box;
 }
 
-.place-order-left input:not(:last-child) {
+.place-order input:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.place-order-left input::placeholder {
+.place-order input::placeholder {
   color: #999;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .multi-fields {
@@ -67,6 +70,12 @@ h2 span {
 
 .multi-fields > div {
   flex: 1;
+}
+
+.multi-fields input[name="state"],
+.multi-fields input[name="country"] {
+  padding: 12px 10px;
+  font-size: 14px;
 }
 
 .cart-totals div {
@@ -140,22 +149,6 @@ h2 span {
 
 .checkmark {
   position: absolute;
-  top: -6px;
-  right: -6px;
-  background-color: #4CAF50;
-  color: white;
-  width: 20px;
-  height: 20px;
-  font-size: 14px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.payment-btn .checkmark {
-  position: absolute;
   top: 0px;
   right: 1px;
   font-size: 18px;
@@ -163,6 +156,7 @@ h2 span {
   background: green;
   border-radius: 50%;
   padding: 2px 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .place-order-btn {
