@@ -6,9 +6,10 @@ import App from './App';
 import ShopContextProvider from './Context/ShopContext'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter >
-    <ShopContextProvider>
-      <App />
-    </ShopContextProvider>
-  </BrowserRouter>
+  <BrowserRouter basename="/Deploy1">
+  <ShopContextProvider>
+    <App />
+  </ShopContextProvider>
+</BrowserRouter>
+
 );
