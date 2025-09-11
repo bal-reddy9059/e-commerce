@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // ensures root deployment works correctly
+  base: '/', // root deployment for Vercel
   build: {
-    outDir: 'dist', // default, make sure matches your gh-pages or Vercel deployment
+    outDir: 'dist'
   },
 });
