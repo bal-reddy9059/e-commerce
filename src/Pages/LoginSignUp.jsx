@@ -243,9 +243,4 @@ const LoginSignUp = () => {
     </div>
   );
 };
-
-<<<<<<< HEAD
 export default LoginSignUp;  
-=======
-export default LoginSignUp;
->>>>>>> af67109 (Update App, LoginSignUp, CartItems CSS, main.jsx, vite.config.js and add 404.html & vercel.json)
